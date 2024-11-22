@@ -53,7 +53,6 @@ elif option == 2:
                         stuff = content.split("|")
                         if int(stuff[1]) == assignmentID:
                             grades.append(int(stuff[2]))
-                print(grades)
                 print(f"Min: {min(grades)}%")
                 print(f"Avg: {int(sum(grades) / len(grades))}%")
                 print(f"Max: {max(grades)}%")
